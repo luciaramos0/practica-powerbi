@@ -169,3 +169,11 @@ Para crear `Transacciones` se duplicó la consulta principal y se quitaron las c
 ![Pasos aplicados - Transacciones](image27.png)
 
 ![Tabla Transacciones resultante](image28.png)
+
+## 6. Cómo reproducir
+
+1. Descargar `practica.pbix` y abrirlo con Power BI Desktop.
+2. En la pestaña **Inicio**, hacer clic en **Transformar datos**.
+3. En el panel izquierdo aparecen las consultas `VENTAS_EXPORT`, `Clientes` y `Transacciones`.
+4. Seleccionar cada una para ver su panel **Pasos aplicados** (a la derecha).
+5. Para ver el código de cada paso, hacer clic en **Editor avanzado**.
