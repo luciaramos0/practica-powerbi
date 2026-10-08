@@ -149,8 +149,8 @@ Se reemplazaron los nombres técnicos del sistema por nombres descriptivos, en `
 
 La tabla `VENTAS_EXPORT` tiene una fila por venta, así que los datos del cliente se repiten en cada compra. Por eso los duplicados se tratan en cada tabla final:
 
-- **`Clientes`:** se aplicó **Quitar duplicados** sobre `id_cliente`. La tabla pasó de 945 filas a **900 clientes únicos**. Se conserva la primera aparición de cada cliente, y así `id_cliente` queda como clave primaria.
-- **`Transacciones`:** se aplicó **Quitar duplicados** sobre `id_venta`, porque cada venta debe figurar una sola vez. La tabla tenía 945 filas antes del paso y quedó en **___ filas**.
+- **`Clientes`:** se aplicó **Quitar duplicados** sobre `id_cliente`. La tabla pasó de 945 filas a **119 clientes únicos**. Se conserva la primera aparición de cada cliente, y así `id_cliente` queda como clave primaria.
+- **`Transacciones`:** se aplicó **Quitar duplicados** sobre `id_venta`, porque cada venta debe figurar una sola vez. La tabla tenía 945 filas antes del paso y quedó en **900 filas**.
 
 ![Quitar duplicados en Clientes (1)](image25.png)
 
