@@ -140,7 +140,7 @@ No se dejó en `0` ni se eliminaron esas filas porque un total en 0 subestimarí
 
 La tabla `VENTAS_EXPORT` tiene una fila por venta, por lo que los datos del cliente se repiten en cada compra. Al separar la tabla de clientes, esas repeticiones generaban filas duplicadas (la tabla tenía 945 filas con el mismo cliente varias veces).
 
-Se aplicó **Quitar duplicados** sobre `id_cliente` en la tabla `Clientes`, de modo que cada cliente aparezca una sola vez y `id_cliente` pueda funcionar como clave primaria. La tabla pasó de 945 filas a **___ filas** (clientes únicos).
+Se aplicó **Quitar duplicados** sobre `id_cliente` en la tabla `Clientes`, de modo que cada cliente aparezca una sola vez y `id_cliente` pueda funcionar como clave primaria. La tabla pasó de 945 filas a **900 filas** (clientes únicos).
 
 ![Quitar duplicados en Clientes](image25.png)
 
